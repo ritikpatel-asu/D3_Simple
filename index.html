@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>D3 Simple - CSE 578 - Fall 2024</title>
+        <p><b><u>Name:</b></u> Ritik Patel, <b><u>Email:</b></u> rpate209@asu.edu</p>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="js/main.js"></script>
+        <style>
+            #selectCountry{
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h3 class="text-center">Male vs Female employment rate in various countries</h3>
+            <div class="row">
+                <div class="col-1"><b>Country: </b></div>
+                <div class="col-3">
+                    <select id="selectCountry">
+                        <option value="India">India</option>
+                        <option value="United States">United States</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Italy">Italy</option>
+                    </select>
+                </div>
+            </div>
+            <div id="myDataVis">
+                <svg width="1000" height="600">
+                </svg>
+            </div>
+        </div><!-- End of the container div -->
+    </body>
+</html> 
